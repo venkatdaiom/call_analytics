@@ -46,7 +46,7 @@ app = FastAPI(
 
 # --- Configuration for CSV loading (remains the same) ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CSV_FILE_PATH = os.path.join(BASE_DIR, "Latest1000Recordings_DurationMorethan60sec.csv") # Or your correct CSV name
+CSV_FILE_PATH = os.path.join(BASE_DIR, "DFX - GMB KPIs - 1000_reviews.csv") # Or your correct CSV name
 call_data_df = None
 
 # --- Pydantic Model (remains the same) ---
